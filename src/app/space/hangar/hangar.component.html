@@ -1,0 +1,9 @@
+<h1>hangar</h1>
+<div class='row'>
+  <div class='col-6'>
+    <app-space-ship *ngFor="let spaceShip of spaceShips" [spaceShip]="spaceShip"></app-space-ship>
+  </div>
+  <div class='col-6'>
+    <app-pilot-room></app-pilot-room>
+  </div>
+</div>
